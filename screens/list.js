@@ -216,7 +216,6 @@ import {
     const renderItem = ({ item }) => {
       return (
         <View>
-{/* Ketika item daftar diklik, modalVisible akan menjadi true dan menampilkan modal */}
           <Modal
             animationType="slide"
             transparent={true}
@@ -236,7 +235,6 @@ import {
               </View>
             </View>
           </Modal>
-merender item daftar dengan gambar dan judul
           <TouchableOpacity style={styles.view} onPress={() => setModalVisible(true)}>
             <View>
               <Image source={{ uri: item.image }} style={styles.image} />
